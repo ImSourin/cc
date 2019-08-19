@@ -3,8 +3,10 @@
 #define pb push_back
 #define f first
 #define s second
-#define p(x) printf("%lld\n", x)
-#define sl(x) scanf("%lld", &x)
+#define debug(x) cout<<x
+#define debug2(x,y) cout<<x<<" "<<y<<endl
+#define debug3(x,y,z) cout<<x<<" "<<y<<z<<endl
+#define ip(x) cin>>x
 #define INF 1e18+9
 #define endl '\n'
 #define FIO ios_base::sync_with_stdio(false)
@@ -196,6 +198,6 @@ void matexp(ll a[3][3], ll b, ll ans[3][3]){
 
 int main()
 {
-	cout<<"gg"<<endl;
+	debug("gg");
 	return 0;
 }
